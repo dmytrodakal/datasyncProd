@@ -71,19 +71,19 @@
 	
 	<dependencies>
 	<dependency>
-		<groupId>com.local.jar</groupId>
+		<groupId>local</groupId>
 		<artifactId>sf-api</artifactId>
 		<version>1.0</version>
 	</dependency>
 
 	<dependency>
-		<groupId>com.local.jar</groupId>
+		<groupId>local</groupId>
 		<artifactId>open-csv</artifactId>
 		<version>1.0</version>
 	</dependency>
 	
 	<dependency>
-		<groupId>com.local.jar</groupId>
+		<groupId>local</groupId>
 		<artifactId>sf-api-wsc</artifactId>
 		<version>1.0</version>
 	</dependency>
