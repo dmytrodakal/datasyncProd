@@ -23,7 +23,13 @@ jobs:
 
 
       - name: Maven Install Api
-        run: mvn install:install-file -Dfile=D:/a/datasyncProd/datasyncProd/lib/api.jar -DgroupId=com.local -DartifactId=ssj -Dversion=2.5 -Dpackaging=jar
+        run: mvn install:install-file -Dfile=D:/a/datasyncProd/datasyncProd/lib/api.jar -DgroupId=com.local.jar -DartifactId=sf-api-wsc -Dversion=1.0 -Dpackaging=jar
+      
+      - name: Maven Install Partner Api
+        run: mvn install:install-file -Dfile=D:/a/datasyncProd/datasyncProd/lib/partner.jar -DgroupId=com.local.jar -DartifactId=sf-api -Dversion=1.0 -Dpackaging=jar
+           
+      - name: Maven Install Open CSV
+        run: mvn install:install-file -Dfile=D:/a/datasyncProd/datasyncProd/lib/opencsv.jar -DgroupId=com.local.jar -DartifactId=open-csv -Dversion=1.0 -Dpackaging=jar
 
       - name: Build with Maven
         run: mvn clean install

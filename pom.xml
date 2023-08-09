@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 	
-	<build>
+	<!--build>
   <plugins>
 	<plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -61,13 +61,13 @@
                 <artifactId>sf-api-wsc</artifactId>
                 <version>1.0</version>
                 <packaging>jar</packaging>
-                <file>${project.basedir}/lib/wsc.jar</file>
+                <file>${project.basedir}/api/api.jar</file>
             </configuration>
         </execution>
 	</executions>
 	</plugin>
 	  </plugins>
-</build>
+</build-->
 	
 	<dependencies>
 	<dependency>
