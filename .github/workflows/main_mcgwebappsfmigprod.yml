@@ -23,7 +23,7 @@ jobs:
 
 
       - name: Maven Install Api
-        run: mvn install:install-file -Dfile=D:/a/datasyncProd/lib/api.jar -DgroupId=com.local -DartifactId=ssj -Dversion=2.5 -Dpackaging=jar
+        run: mvn install:install-file -Dfile=D:/a/datasyncProd/datasyncProd/lib/api.jar -DgroupId=com.local -DartifactId=ssj -Dversion=2.5 -Dpackaging=jar
 
       - name: Build with Maven
         run: mvn clean install
