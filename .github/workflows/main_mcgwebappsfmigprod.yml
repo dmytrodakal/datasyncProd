@@ -21,6 +21,10 @@ jobs:
         with:
           java-version: '17'
 
+
+      - name: Maven Install Api
+        run: mvn install:install-file -Dfile=./datasyncProd/lib/api.jar -DgroupId=com.local -DartifactId=ssj -Dversion=2.5 -Dpackaging=jar
+
       - name: Build with Maven
         run: mvn clean install
 
